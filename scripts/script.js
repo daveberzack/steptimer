@@ -13,9 +13,19 @@ const tick = ()=>{
       
       currentStep++;
       $("#step"+currentStep).addClass("on");
-      timeRemaining = currentStep%2 ? onSeconds : offSeconds;
-      const name = currentStep%2 ? "start" : "stop";
-      var audio = new Audio('mp3/'+name+'.mp3');
+
+      let audioName = "";
+      if (currentStep%2){
+        timeRemaining = onSeconds;
+        audioName = "start";
+        $("#time").addClass("on");
+      }
+      else {
+        timeRemaining = onSeconds;
+        audioName = "stop";
+        $("#time").removeClass("on");
+      }
+      var audio = new Audio('mp3/'+audioName+'.mp3');
       audio.play();
     }
     else {

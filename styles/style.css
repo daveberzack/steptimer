@@ -189,6 +189,11 @@ a {
   text-align: center;
   font-size: 100px;
   margin: 20px;
+  color: #990000;
+}
+
+#time.on {
+  color: #009900;
 }
 
 button {
