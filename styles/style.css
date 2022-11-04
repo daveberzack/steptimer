@@ -1,0 +1,202 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* --------------- GLOBAL --------------- */
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #000000;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#header {
+  background: #ffffff;
+}
+
+#header h1 {
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+
+#steps {
+  margin: 20px;
+}
+.step {
+  width: 20px;
+  height: 20px;
+  margin: 0px 0px;
+  display: inline-block;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 999px;
+}
+.small .step {
+  width: 15px;
+  height: 15px;
+  margin: 0px 0px;
+}
+.tiny .step {
+  width: 10px;
+  height: 10px;
+  margin: 0px 1px;
+}
+.on-step {
+  border-color: #009900;
+}
+.off-step {
+  border-color: #990000;
+}
+.on-step.on {
+  background-color: #009900;
+}
+.off-step.on {
+  background-color: #990000;
+}
+
+
+#time {
+  text-align: center;
+  font-size: 100px;
+  margin: 20px;
+}
+
+button {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 0px;
+  font-size: 1em;
+}

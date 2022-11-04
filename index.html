@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expansion Timer</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="scripts/script.js"></script>
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Expansion Timer</h1>
+    </div>
+
+    <div id="steps">
+      <div id="step0" class="step off-step"></div>
+      <div id="step1" class="step on-step"></div>
+      <div id="step2" class="step off-step"></div>
+      <div id="step3" class="step on-step"></div>
+      <div id="step4" class="step off-step"></div>
+      <div id="step5" class="step on-step"></div>
+      <div id="step6" class="step off-step"></div>
+    </div>
+
+    <h2 id="time">0:00</h2>
+
+    <button id="reset">Start</button>
+
+    <embed src="mp3/start.mp3" autostart="false" width="0" height="0" id="start" enablejavascript="true"/>
+    <embed src="mp3/stop.mp3" autostart="false" width="0" height="0" id="start" enablejavascript="true"/>
+
+  </body>
+</html>
